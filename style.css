@@ -11,7 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
+    flex-direction: column;
 }
 
 .login-container {
@@ -176,7 +177,7 @@ select {
 }
 
 .registrocadastro-button {
-    background-color: #4CAF50;
+    background-color: #6b9474;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -189,10 +190,10 @@ select {
 }
 
 .registrocadastro-button:hover {
-    background-color: #45a049;
+    background-color: #6b9474;
 }
 .voltar-button{
-    color: #45a049;
+    color: #6b9474;
 }
 
 /* pagina objetivos */
@@ -245,12 +246,11 @@ body .objetivos {
 }
 
 .opcoes:hover {
-    border-color: #4CAF50;
+    border-color: #6b9474;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .opcoes::after {
-    content: '>';
     color: #6c757d;
     font-weight: bold;
 }
@@ -266,6 +266,11 @@ body .objetivos {
     font-size: 16px;
 }
 
+.pular a:hover {
+    text-decoration: none;
+}
+
+
 /* pagina atividade */
 
 body .nivelatividade {
@@ -274,7 +279,6 @@ body .nivelatividade {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     padding: 20px;
     position: relative;
     overflow-x: hidden;
@@ -282,7 +286,7 @@ body .nivelatividade {
 
 .atividade-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     z-index: 2; 
 }
 
@@ -344,38 +348,35 @@ body .nivelatividade {
     text-decoration: underline;
 }
 
-/* 
+.a {
+    text-decoration: none;
+}
+
+
 .wave-container {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 150px;
+    height: auto;
     z-index: 1;
+    background-color: #555;
 }
 
 .wave2 {
     position: absolute;
-    bottom: 10px;
     left: 0;
     width: 100%;
     height: 100%;
-    background:fixed
-    background-size contain;
+    
 }
 
 .wave3 {
     position: absolute;
-    bottom: 10px;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('imagenstrabalho/wave3.svg') repeat-x;
-    background-size: contain;
+    
     opacity: 0.7;
 }
- */
 
-.pular a:hover {
-    text-decoration: underline;
-}
