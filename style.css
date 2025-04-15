@@ -266,6 +266,116 @@ body .objetivos {
     font-size: 16px;
 }
 
+/* pagina atividade */
+
+body .nivelatividade {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.atividade-container {
+    width: 100%;
+    max-width: 400px;
+    z-index: 2; 
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.opcoes-ativi {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.opcoes-ativi {
+    background-color: white;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcoes-ativi:hover {
+    border-color: #6b9474;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.opcoes-ativi::after {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.pular-atividade {
+    text-align: center;
+    margin-top: 20px;
+    z-index: 2; 
+}
+
+.pular-atividade a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.pular-atividade a:hover {
+    text-decoration: underline;
+}
+
+/* 
+.wave-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:fixed
+    background-size contain;
+}
+
+.wave3 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imagenstrabalho/wave3.svg') repeat-x;
+    background-size: contain;
+    opacity: 0.7;
+}
+ */
+
 .pular a:hover {
     text-decoration: underline;
 }
