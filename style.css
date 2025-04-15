@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.logo-vitalis {
+    width: 300 px;
+
+}
+
+.login-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.marca-nome {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333;
+}
+
+.slogan {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.login-button {
+    background-color: #6A9672;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #6A9672;
+}
+
+.registro-link {
+    font-size: 14px;
+    color: #777;
+}
+
+.registro-link a {
+    color: #6A9672;
+    text-decoration: none;
+    font-weight: bold;
+}
+    input:focus, 
+    button:focus, 
+    select:focus 
+.registro-link a:hover {
+    text-decoration: none;
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+
+/* pagina cadastro */
+
+body.cadastro.html {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;}
+
+
+.registrocadastro-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+}
+
+.logocadastro {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.formulario-grupo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.marca-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.marca-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.slogan {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+}
+
+.registrocadastro-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.registrocadastro-button:hover {
+    background-color: #45a049;
+}
+.voltar-button{
+    color: #45a049;
+}
+
+/* pagina objetivos */
+
+body .objetivos {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.objetivos-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.opcoes {
+    background-color: white;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcoes:hover {
+    border-color: #4CAF50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.opcoes::after {
+    content: '>';
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.pular {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pular a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.pular a:hover {
+    text-decoration: underline;
+}
